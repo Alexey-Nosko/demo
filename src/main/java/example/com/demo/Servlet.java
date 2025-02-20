@@ -14,7 +14,7 @@ public class Servlet extends HttpServlet {
     private String message;
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        message = "Hello World 1";
+        message = "Hello World 2";
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
